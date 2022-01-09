@@ -37,7 +37,8 @@ class App extends Component {
     console.log(this.state.dialog_visible);
     this.setState({ dialog_visible: false });
     sessionStorage.clear();
-    window.location.reload();
+    //window.location.reload();
+    window.location.href = window.location.origin + "/wandarlust-ui";
     this.setState({ logged_out: true });
   }
 
