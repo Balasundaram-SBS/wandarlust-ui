@@ -67,7 +67,7 @@ class Login extends Component {
                 sessionStorage.setItem("userName", response.data.name);
                 this.setState({ loadHome: true, userId: userId, errorMessage: '' });
                 //window.location.reload();
-                window.location.href = window.location.origin;
+                window.location.href = window.location.origin + "/wanderlust-ui";
 
             }).catch(error => {
 

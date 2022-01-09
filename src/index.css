@@ -36,7 +36,7 @@ html{
   }
   .book-page{
     overflow-x: hidden;
-    background-image: url("./assets/bg-masthead1.jpg");
+    background-image: url("../src/assets/bg-masthead1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -83,8 +83,8 @@ html{
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)),url("/assets/bg-masthead1.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("/assets/bg-masthead1.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)),url("../src/assets/bg-masthead1.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../src/assets/bg-masthead1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -259,8 +259,8 @@ html{
   
   .signup-section {
     padding: 10rem 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("/assets/bg-signup1.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("/assets/bg-signup1.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../src/assets/bg-signup1.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../src/assets/bg-signup1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
