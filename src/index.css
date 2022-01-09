@@ -36,7 +36,7 @@ html{
   }
   .book-page{
     overflow-x: hidden;
-    background-image: url(require("./assets/bg-masthead1.jpg"));
+    background-image: url("./assets/bg-masthead1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }

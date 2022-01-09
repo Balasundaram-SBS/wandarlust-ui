@@ -334,7 +334,7 @@ class HotDeals extends Component {
                         {this.displayHotDeals()}
                     </div>}
 
-                <Sidebar visible={this.state.showItinerary} position="right" baseZIndex="1" className="p-sidebar-lg" onHide={(e) => this.setState({ showItinerary: false })}>
+                <Sidebar visible={this.state.showItinerary} position="right" baseZIndex={1} className="p-sidebar-lg" onHide={(e) => this.setState({ showItinerary: false })}>
                     <h2>{this.state.deal.name}</h2>
                     <TabView activeIndex={Number(this.state.index)} onTabChange={(e) => this.setState({ index: e.index })}>
                         <TabPanel header="Overview">

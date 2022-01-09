@@ -114,7 +114,7 @@ class Home extends Component {
                                 <div className="form-group col-md-12 form-inline d-flex">
                                     <AutoComplete
                                         type="text"
-                                        inputStyle={{ height: 58, 'padding-left': 20 }}
+                                        inputStyle={{ height: 58, paddingLeft: 20 }}
                                         size={100}
                                         name="continent"
                                         suggestions={this.state.filteredNames}
@@ -212,7 +212,7 @@ class Home extends Component {
                                     <div className="card-body text-center">
                                         <h4 className="text-uppercase m-0">Email</h4>
                                         <hr className="my-4" />
-                                        <div className="small text-black-50"><Link to="/home">wandarlust@gmail.com</Link></div>
+                                        <div className="small text-black-50"><Link to="/home">wanderlust@gmail.com</Link></div>
                                     </div>
                                 </div>
                             </div>
